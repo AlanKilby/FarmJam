@@ -8,6 +8,7 @@ public class AK_CowAI : MonoBehaviour
     public int shootingQuantity;
     public bool turretMode;
     AIPath cowPath;
+    AIDestinationSetter destination;
 
     public GameObject projectile;
 
@@ -16,7 +17,9 @@ public class AK_CowAI : MonoBehaviour
     private void Start()
     {
         cowPath = GetComponent<AIPath>();
-        turretMode = false;
+        turretMode = false; 
+        destination = GetComponent<AIDestinationSetter>();
+        destination.target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()

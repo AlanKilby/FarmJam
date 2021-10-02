@@ -12,6 +12,8 @@ public class AK_PlayerShooting : MonoBehaviour
 
     float cooldown;
 
+    public AK_ShotgunAnim gunAnim;
+
     private void Start()
     {
         cooldown = shootingCooldown;
@@ -23,6 +25,7 @@ public class AK_PlayerShooting : MonoBehaviour
         if(shootingCooldown > 0)
         {
             shootingCooldown -= Time.deltaTime;
+            
         }
 
         if(Input.GetButtonDown("Fire1") && shootingCooldown <= 0)
@@ -39,6 +42,8 @@ public class AK_PlayerShooting : MonoBehaviour
 
     IEnumerator ShootgunDoubleShot()
     {
+        gunAnim.ChangeAnimationState(gunAnim.GUN_SHOOTING);
+
         shootingCooldown = cooldown;
 
         for (int i = 0; i < shootingPoint.Length; i++)
@@ -49,6 +54,7 @@ public class AK_PlayerShooting : MonoBehaviour
         for (int i = 0; i < shootingPoint.Length; i++)
             Instantiate(pellet, shootingPoint[i].position, shootingPoint[i].rotation * Quaternion.Euler(0.0f, 0.0f, Random.Range(-spreadAngle, spreadAngle)));
 
+        gunAnim.ChangeAnimationState(gunAnim.GUN_IDLE);
         yield return null;
     }
 }

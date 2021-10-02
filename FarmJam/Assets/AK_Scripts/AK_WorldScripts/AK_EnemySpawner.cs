@@ -36,7 +36,7 @@ public class AK_EnemySpawner : MonoBehaviour
 
         for (int i = 0; i < spawnPoints.Length; i++)
         {
-            Instantiate(enemy);
+            Instantiate(enemy, spawnPoints[i].position,Quaternion.identity);
         }
     }
 }

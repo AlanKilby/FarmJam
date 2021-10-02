@@ -6,6 +6,7 @@ using Pathfinding;
 public class AK_ChickenAI : MonoBehaviour
 {
     AIPath aipath;
+    AIDestinationSetter destination;
 
     public float chickenSpeed;
 
@@ -13,6 +14,8 @@ public class AK_ChickenAI : MonoBehaviour
     {
         aipath = GetComponent<AIPath>();
         aipath.maxSpeed = chickenSpeed;
+        destination = GetComponent<AIDestinationSetter>();
+        destination.target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     

@@ -20,7 +20,7 @@ public class AK_EnemyHP : MonoBehaviour
         enemyHP = maxHP;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (enemyHP <= 0)
         {

@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 4881714169091112533}
   - component: {fileID: 4881714169091112543}
   - component: {fileID: 7886618973273855766}
+  - component: {fileID: 5929867648318048497}
   m_Layer: 7
   m_Name: Cow
   m_TagString: Untagged
@@ -349,6 +350,27 @@ MonoBehaviour:
   isChicken: 0
   isCow: 1
   quantity: 10
+--- !u!50 &5929867648318048497
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881714169091112534}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &4881714169352344094
 GameObject:
   m_ObjectHideFlags: 0
