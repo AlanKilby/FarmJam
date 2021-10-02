@@ -19,11 +19,15 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
 <<<<<<< main
   m_Title: Inspector
 =======
   m_Title: Scene
 >>>>>>> LD_FirstLayout
+=======
+  m_Title: Scene
+>>>>>>> HugoLD
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,6 +52,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 1536
     height: 781
@@ -55,6 +60,10 @@ MonoBehaviour:
     width: 1920
     height: 997
 >>>>>>> LD_FirstLayout
+=======
+    width: 1920
+    height: 997
+>>>>>>> HugoLD
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -127,6 +136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< main
     width: 1536
     height: 731
@@ -135,13 +145,18 @@ MonoBehaviour:
   vertical: 0
   controlID: 19968
 =======
+=======
+>>>>>>> HugoLD
     width: 1920
     height: 947
   m_MinSize: {x: 678, y: 442}
   m_MaxSize: {x: 12004, y: 8042}
   vertical: 0
   controlID: 148
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,6 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 712
     height: 731
@@ -176,6 +192,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 103
 >>>>>>> LD_FirstLayout
+=======
+    width: 890
+    height: 947
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 103
+>>>>>>> HugoLD
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,6 +217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 712
     height: 422.4
@@ -200,6 +225,10 @@ MonoBehaviour:
     width: 890
     height: 600
 >>>>>>> LD_FirstLayout
+=======
+    width: 890
+    height: 600
+>>>>>>> HugoLD
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -224,6 +253,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< main
     y: 422.4
     width: 712
@@ -231,6 +261,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
+=======
+>>>>>>> HugoLD
     y: 600
     width: 890
     height: 347
@@ -261,6 +293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 890
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 496.8
     height: 731
@@ -269,13 +302,18 @@ MonoBehaviour:
   vertical: 1
   controlID: 19969
 =======
+=======
+>>>>>>> HugoLD
     width: 622
     height: 947
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 22
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,12 +331,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 496.8
     height: 393.6
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
+=======
+>>>>>>> HugoLD
     width: 622
     height: 509
   m_MinSize: {x: 202, y: 221}
@@ -325,6 +366,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< main
     y: 393.6
     width: 496.8
@@ -333,13 +375,18 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 19}
 =======
+=======
+>>>>>>> HugoLD
     y: 509
     width: 622
     height: 438
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
@@ -362,6 +409,7 @@ MonoBehaviour:
   - {fileID: 14}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 1208.8
     y: 0
@@ -381,6 +429,16 @@ MonoBehaviour:
   vertical: 1
   controlID: 149
 >>>>>>> LD_FirstLayout
+=======
+    x: 1512
+    y: 0
+    width: 408
+    height: 947
+  m_MinSize: {x: 275, y: 271}
+  m_MaxSize: {x: 4001, y: 8021}
+  vertical: 1
+  controlID: 149
+>>>>>>> HugoLD
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -398,6 +456,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< main
     width: 327.19995
     height: 509.6
@@ -405,6 +464,10 @@ MonoBehaviour:
     width: 408
     height: 443
 >>>>>>> LD_FirstLayout
+=======
+    width: 408
+    height: 443
+>>>>>>> HugoLD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
@@ -428,6 +491,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< main
     y: 509.6
     width: 327.19995
@@ -435,6 +499,8 @@ MonoBehaviour:
   m_MinSize: {x: 240, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
+=======
+>>>>>>> HugoLD
     y: 443
     width: 408
     height: 504
@@ -467,6 +533,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< main
     y: 496
     width: 711
@@ -476,6 +543,11 @@ MonoBehaviour:
     width: 889
     height: 326
 >>>>>>> LD_FirstLayout
+=======
+    y: 673
+    width: 889
+    height: 326
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -483,11 +555,15 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< main
   m_TargetSize: {x: 592, y: 333.25}
 =======
   m_TargetSize: {x: 542, y: 305}
 >>>>>>> LD_FirstLayout
+=======
+  m_TargetSize: {x: 542, y: 305}
+>>>>>>> HugoLD
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -502,17 +578,23 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< main
     m_HBaseRangeMin: -236.8
     m_HBaseRangeMax: 236.8
     m_VBaseRangeMin: -133.3
     m_VBaseRangeMax: 133.3
 =======
+=======
+>>>>>>> HugoLD
     m_HBaseRangeMin: -271
     m_HBaseRangeMax: 271
     m_VBaseRangeMin: -152.5
     m_VBaseRangeMax: 152.5
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -530,23 +612,30 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< main
       width: 711
       height: 266.6
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 355.5, y: 133.3}
 =======
+=======
+>>>>>>> HugoLD
       width: 889
       height: 305
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 444.5, y: 152.5}
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
       x: -355.5
       y: -133.3
@@ -564,6 +653,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 889, y: 326}
 >>>>>>> LD_FirstLayout
+=======
+      x: -444.5
+      y: -152.5
+      width: 889
+      height: 305
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 889, y: 326}
+>>>>>>> HugoLD
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -590,6 +688,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< main
     y: 73.6
     width: 711
@@ -599,6 +698,11 @@ MonoBehaviour:
     width: 889
     height: 579
 >>>>>>> LD_FirstLayout
+=======
+    y: 73
+    width: 889
+    height: 579
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 5cb07329633efd348a220d89afe6629b
@@ -611,6 +715,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< main
     m_Target: {x: -5.8300605, y: 0.76611745, z: -53.53893}
     speed: 2
@@ -620,6 +725,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -7.066653, y: 7.7874537, z: -840.1471}
 >>>>>>> LD_FirstLayout
+=======
+    m_Target: {x: -7.066653, y: 7.7874537, z: -840.1471}
+    speed: 2
+    m_Value: {x: -7.066653, y: 7.7874537, z: -840.1471}
+>>>>>>> HugoLD
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -670,6 +780,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< main
     m_Target: 12.494659
     speed: 2
@@ -679,6 +790,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 48.27446
 >>>>>>> LD_FirstLayout
+=======
+    m_Target: 48.27446
+    speed: 2
+    m_Value: 48.27446
+>>>>>>> HugoLD
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -801,21 +917,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 712
     y: 73.6
     width: 494.8
     height: 372.6
 =======
+=======
+>>>>>>> HugoLD
     x: 890
     y: 73
     width: 620
     height: 488
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< main
       m_SelectedIDs: fae6feff
       m_LastClickedID: -71942
@@ -825,6 +948,11 @@ MonoBehaviour:
       m_LastClickedID: 22798
       m_ExpandedIDs: f4e2ffff12e3ffffb4e4ffff6ef8ffff2cf9ffff84f9ffff3afbffff1c59000032590000
 >>>>>>> LD_FirstLayout
+=======
+      m_SelectedIDs: 0e590000
+      m_LastClickedID: 22798
+      m_ExpandedIDs: f4e2ffff12e3ffffb4e4ffff6ef8ffff2cf9ffff84f9ffff3afbffff1c59000032590000
+>>>>>>> HugoLD
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -868,17 +996,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 712
     y: 467.2
     width: 494.8
     height: 316.4
 =======
+=======
+>>>>>>> HugoLD
     x: 890
     y: 582
     width: 619
     height: 417
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -893,37 +1027,51 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< main
     - Assets/AK_Scripts/AK_WorldScripts
 =======
     - Assets/HD_Prefabs
 >>>>>>> LD_FirstLayout
+=======
+    - Assets/HD_Prefabs
+>>>>>>> HugoLD
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< main
   - Assets/AK_Scripts/AK_WorldScripts
 =======
   - Assets/HD_Prefabs
 >>>>>>> LD_FirstLayout
+=======
+  - Assets/HD_Prefabs
+>>>>>>> HugoLD
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\h.demortier\Desktop\FarmJam_Project\FarmJam\FarmJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< main
     scrollPos: {x: 0, y: 23.600006}
     m_SelectedIDs: 10a80000
     m_LastClickedID: 43024
     m_ExpandedIDs: 00000000884400008a440000ae44000000ca9a3b
 =======
+=======
+>>>>>>> HugoLD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a4580000
     m_LastClickedID: 22692
     m_ExpandedIDs: 00000000924400009444000000ca9a3b
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: HD_Scenes
@@ -951,11 +1099,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< main
     m_ExpandedIDs: 00000000884400008a44000000ca9a3b
 =======
     m_ExpandedIDs: 000000009244000094440000
 >>>>>>> LD_FirstLayout
+=======
+    m_ExpandedIDs: 000000009244000094440000
+>>>>>>> HugoLD
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -986,6 +1138,7 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 6287000024440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
+<<<<<<< HEAD
 <<<<<<< main
       m_Name: AK_EnemySpawner
       m_OriginalName: AK_EnemySpawner
@@ -993,17 +1146,25 @@ MonoBehaviour:
       m_Name: 
       m_OriginalName: 
 >>>>>>> LD_FirstLayout
+=======
+      m_Name: 
+      m_OriginalName: 
+>>>>>>> HugoLD
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
 <<<<<<< main
       m_UserData: 43028
 =======
       m_UserData: 0
 >>>>>>> LD_FirstLayout
+=======
+      m_UserData: 0
+>>>>>>> HugoLD
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
@@ -1040,17 +1201,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 712
     y: 467.2
     width: 494.8
     height: 316.4
 =======
+=======
+>>>>>>> HugoLD
     x: 890
     y: 582
     width: 620
     height: 417
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
@@ -1072,17 +1239,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 1208.8
     y: 73.6
     width: 326.19995
     height: 488.6
 =======
+=======
+>>>>>>> HugoLD
     x: 1512
     y: 73
     width: 407
     height: 422
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -1091,11 +1264,15 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
+<<<<<<< HEAD
 <<<<<<< main
   m_LastVerticalScrollValue: 140
 =======
   m_LastVerticalScrollValue: 0
 >>>>>>> LD_FirstLayout
+=======
+  m_LastVerticalScrollValue: 0
+>>>>>>> HugoLD
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -1120,17 +1297,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< main
     x: 1208.8
     y: 583.2
     width: 326.19995
     height: 200.4
 =======
+=======
+>>>>>>> HugoLD
     x: 1512
     y: 516
     width: 407
     height: 483
+<<<<<<< HEAD
 >>>>>>> LD_FirstLayout
+=======
+>>>>>>> HugoLD
   m_ViewDataDictionary: {fileID: 0}
   m_PreviewResizer:
     m_CachedPref: -50
