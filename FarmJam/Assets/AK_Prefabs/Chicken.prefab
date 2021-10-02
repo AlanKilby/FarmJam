@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2017453708729147454}
   - component: {fileID: 79354758350087334}
   - component: {fileID: 8137408454815781802}
-  - component: {fileID: 1902475358194759067}
+  - component: {fileID: 3917949126627758777}
   m_Layer: 7
   m_Name: Chicken
   m_TagString: Untagged
@@ -164,7 +164,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!50 &1902475358194759067
+--- !u!50 &3917949126627758777
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0

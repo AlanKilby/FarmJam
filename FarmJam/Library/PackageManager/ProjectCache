@@ -5,26 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637687927447617452
+      ticks: 637687991213665480
     m_Hash: 3547668566
-=======
-      ticks: 637687759459669920
-    m_Hash: 2515013177
->>>>>>> HugoLD
   m_LockFileStatus:
     m_FilePath: C:/Users/h.demortier/Desktop/FarmJam_Project/FarmJam/FarmJam/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-<<<<<<< HEAD
-      ticks: 637687927447905750
+      ticks: 637687991213675453
     m_Hash: 908295506
-=======
-      ticks: 637687759459679901
-    m_Hash: 4193688565
->>>>>>> HugoLD
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -440,7 +430,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.6.10
       source: 1
-      resolvedPath: C:\Users\alan\Documents\FarmJamGit\FarmJam\FarmJam\Library\PackageCache\com.unity.cinemachine@2.6.10
+      resolvedPath: C:\Users\h.demortier\Desktop\FarmJam_Project\FarmJam\FarmJam\Library\PackageCache\com.unity.cinemachine@2.6.10
       assetPath: Packages/com.unity.cinemachine
       name: com.unity.cinemachine
       displayName: Cinemachine
@@ -458,80 +448,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 2.1.11-beta.1
-        - 2.1.12
-        - 2.1.13
-        - 2.2.0
-        - 2.2.7
-        - 2.2.8
-        - 2.2.9
-        - 2.2.10-preview.3
-        - 2.2.10-preview.4
-        - 2.3.1
-        - 2.3.3
-        - 2.3.4
-        - 2.3.5-preview.3
-        - 2.4.0-preview.3
-        - 2.4.0-preview.4
-        - 2.4.0-preview.6
-        - 2.4.0-preview.7
-        - 2.4.0-preview.8
-        - 2.4.0-preview.9
-        - 2.4.0-preview.10
-        - 2.4.0
-        - 2.5.0
-        - 2.6.0-preview.2
-        - 2.6.0-preview.3
-        - 2.6.0-preview.5
-        - 2.6.0-preview.8
-        - 2.6.0
-        - 2.6.1-preview.6
-        - 2.6.1
-        - 2.6.2-preview.1
-        - 2.6.2
-        - 2.6.3-preview.2
-        - 2.6.3
-        - 2.6.4
-        - 2.6.5
-        - 2.6.9
         - 2.6.10
-        - 2.7.1
-        - 2.7.2
-        - 2.7.3
-        - 2.7.4
-        - 2.7.5
-        - 2.7.8
-        - 2.8.0-exp.1
-        - 2.8.0-exp.2
-        - 2.8.0-pre.1
-        - 2.8.0
         compatible:
-        - 2.5.0
-        - 2.6.0-preview.2
-        - 2.6.0-preview.3
-        - 2.6.0-preview.5
-        - 2.6.0-preview.8
-        - 2.6.0
-        - 2.6.1-preview.6
-        - 2.6.1
-        - 2.6.2-preview.1
-        - 2.6.2
-        - 2.6.3-preview.2
-        - 2.6.3
-        - 2.6.4
-        - 2.6.5
-        - 2.6.9
         - 2.6.10
-        - 2.7.1
-        - 2.7.2
-        - 2.7.3
-        - 2.7.4
-        - 2.7.5
-        - 2.7.8
-        - 2.8.0-exp.1
-        - 2.8.0-exp.2
-        - 2.8.0-pre.1
-        - 2.8.0
         verified: 2.6.10
       dependencies: []
       resolvedDependencies: []
@@ -570,12 +489,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637654219840000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
         revision: 21f619698ca31d69054e96556e03097e48e43c5d
         path: 
     - packageId: com.unity.collab-proxy@1.9.0
