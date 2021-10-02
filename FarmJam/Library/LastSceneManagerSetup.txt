@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< refs/remotes/origin/main
 - path: Assets/AK_Scenes/TestingScene.unity
+=======
+- path: Assets/Menu Package/Scenes/MenuScene.unity
+>>>>>>> package menu + scripts pause et music managers
   isLoaded: 1
   isActive: 1
   isSubScene: 0

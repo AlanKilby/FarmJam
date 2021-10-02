@@ -19,7 +19,11 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
+<<<<<<< refs/remotes/origin/main
   m_Title: Inspector
+=======
+  m_Title: Game
+>>>>>>> package menu + scripts pause et music managers
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,8 +78,13 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LoadedToolbars:
+<<<<<<< refs/remotes/origin/main
   - {fileID: 19}
   m_MainToolbar: {fileID: 19}
+=======
+  - {fileID: 17}
+  m_MainToolbar: {fileID: 17}
+>>>>>>> package menu + scripts pause et music managers
   m_LastLoadedLayoutName: 
 --- !u!114 &4
 MonoBehaviour:
@@ -112,18 +121,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 6}
+<<<<<<< refs/remotes/origin/main
   - {fileID: 9}
   - {fileID: 12}
+=======
+  - {fileID: 11}
+>>>>>>> package menu + scripts pause et music managers
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1536
     height: 731
+<<<<<<< refs/remotes/origin/main
   m_MinSize: {x: 708, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
   controlID: 10484
+=======
+  m_MinSize: {x: 579, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 1941
+>>>>>>> package menu + scripts pause et music managers
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,17 +158,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 7}
+<<<<<<< refs/remotes/origin/main
   - {fileID: 8}
+=======
+  - {fileID: 10}
+>>>>>>> package menu + scripts pause et music managers
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
     width: 712
     height: 731
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
   controlID: 10389
+=======
+    width: 1172.8
+    height: 731
+  m_MinSize: {x: 303, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 1942
+>>>>>>> package menu + scripts pause et music managers
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,11 +194,18 @@ MonoBehaviour:
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< refs/remotes/origin/main
   m_Children: []
+=======
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+>>>>>>> package menu + scripts pause et music managers
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< refs/remotes/origin/main
     width: 712
     height: 441.6
   m_MinSize: {x: 201, y: 221}
@@ -175,6 +215,14 @@ MonoBehaviour:
   - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
+=======
+    width: 1172.8
+    height: 433.6
+  m_MinSize: {x: 303, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 1943
+>>>>>>> package menu + scripts pause et music managers
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,9 +239,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< refs/remotes/origin/main
     y: 441.6
     width: 712
     height: 289.4
+=======
+    y: 0
+    width: 289.6
+    height: 433.6
+>>>>>>> package menu + scripts pause et music managers
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -202,6 +256,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
+<<<<<<< refs/remotes/origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,6 +282,8 @@ MonoBehaviour:
   vertical: 1
   controlID: 10485
 --- !u!114 &10
+=======
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,11 +293,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< refs/remotes/origin/main
   m_Name: 
+=======
+  m_Name: GameView
+>>>>>>> package menu + scripts pause et music managers
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
     x: 0
     y: 0
     width: 363.2
@@ -253,6 +315,21 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
+=======
+    x: 289.6
+    y: 0
+    width: 883.2001
+    height: 433.6
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &10
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -268,6 +345,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< refs/remotes/origin/main
     y: 362.4
     width: 363.2
     height: 368.6
@@ -280,6 +358,19 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+=======
+    y: 433.6
+    width: 1172.8
+    height: 297.4
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &11
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,6 +385,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
     x: 1075.2
     y: 0
     width: 460.80005
@@ -306,6 +398,20 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
+=======
+    x: 1172.8
+    y: 0
+    width: 363.19995
+    height: 731
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -313,14 +419,19 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< refs/remotes/origin/main
   m_EditorHideFlags: 1
+=======
+  m_EditorHideFlags: 0
+>>>>>>> package menu + scripts pause et music managers
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< refs/remotes/origin/main
     m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -329,6 +440,16 @@ MonoBehaviour:
     y: 515.2
     width: 711
     height: 268.4
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 289.6
+    y: 73.6
+    width: 881.2001
+    height: 412.6
+>>>>>>> package menu + scripts pause et music managers
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -336,7 +457,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< refs/remotes/origin/main
   m_TargetSize: {x: 550, y: 309.25}
+=======
+  m_TargetSize: {x: 870, y: 489.5}
+>>>>>>> package menu + scripts pause et music managers
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -351,10 +476,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< refs/remotes/origin/main
     m_HBaseRangeMin: -220
     m_HBaseRangeMax: 220
     m_VBaseRangeMin: -123.700005
     m_VBaseRangeMax: 123.700005
+=======
+    m_HBaseRangeMin: -348
+    m_HBaseRangeMax: 348
+    m_VBaseRangeMin: -195.8
+    m_VBaseRangeMax: 195.8
+>>>>>>> package menu + scripts pause et music managers
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -372,16 +504,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< refs/remotes/origin/main
       width: 711
       height: 247.4
     m_Scale: {x: 0.99999994, y: 0.99999994}
     m_Translation: {x: 355.5, y: 123.7}
+=======
+      width: 881.2001
+      height: 391.6
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.60004, y: 195.8}
+>>>>>>> package menu + scripts pause et music managers
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< refs/remotes/origin/main
       x: -355.50003
       y: -123.700005
       width: 711.00006
@@ -389,11 +529,77 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.99999994
   m_LastWindowPixelSize: {x: 888.75, y: 335.5}
+=======
+      x: -440.60004
+      y: -195.8
+      width: 881.2001
+      height: 391.6
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1101.5001, y: 515.75}
+>>>>>>> package menu + scripts pause et music managers
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< refs/remotes/origin/main
+=======
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73.6
+    width: 288.6
+    height: 412.6
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 74530000
+      m_LastClickedID: 21364
+      m_ExpandedIDs: 48f3ffff54f3ffff60f3ffff6cf3ffff78f3ffff86f3ffff92f3ffff9ef3ffffc6f3fffff2f3ffff3efbffff66450000ec530000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+>>>>>>> package menu + scripts pause et music managers
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -410,6 +616,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< refs/remotes/origin/main
     m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -418,6 +625,16 @@ MonoBehaviour:
     y: 73.6
     width: 711
     height: 420.6
+=======
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 289.6
+    y: 73.6
+    width: 881.2001
+    height: 412.6
+>>>>>>> package menu + scripts pause et music managers
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 37014663a6e505f4f986ac6bbc1de974
@@ -430,9 +647,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< refs/remotes/origin/main
     m_Target: {x: 8.318101, y: 7.368297, z: -29.110018}
     speed: 2
     m_Value: {x: 9.0309105, y: 7.9764853, z: -29.059698}
+=======
+    m_Target: {x: -0.48342514, y: -0.040137887, z: -189.63557}
+    speed: 2
+    m_Value: {x: -0.48342514, y: -0.040137887, z: -189.63557}
+>>>>>>> package menu + scripts pause et music managers
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -471,7 +694,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 1
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 8, y: 8}
@@ -483,9 +706,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< refs/remotes/origin/main
     m_Target: 13.348482
     speed: 2
     m_Value: 13.9774685
+=======
+    m_Target: 6.1062937
+    speed: 2
+    m_Value: 6.1062937
+>>>>>>> package menu + scripts pause et music managers
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -511,6 +740,7 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
 --- !u!114 &15
+<<<<<<< refs/remotes/origin/main
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -565,6 +795,8 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 69d8f0de9b6a79c44ac8f229db507161
 --- !u!114 &16
+=======
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -580,6 +812,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
+<<<<<<< refs/remotes/origin/main
     m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -588,6 +821,16 @@ MonoBehaviour:
     y: 436
     width: 361.2
     height: 347.6
+=======
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 507.2
+    width: 1171.8
+    height: 276.4
+>>>>>>> package menu + scripts pause et music managers
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -602,12 +845,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/AK_Prefabs
+    - Assets/HD_Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
+<<<<<<< refs/remotes/origin/main
   - Assets/AK_Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\alan\Documents\FarmJamGit\FarmJam\FarmJam
@@ -618,6 +862,18 @@ MonoBehaviour:
     m_SelectedIDs: a4480000
     m_LastClickedID: 18596
     m_ExpandedIDs: 000000007c4800007e48000000ca9a3b
+=======
+  - Assets/HD_Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Admin\Documents\Projets\Jams\First Jam VII\FarmJam\FarmJam
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 159.6}
+    m_SelectedIDs: 1a4a0000
+    m_LastClickedID: 18970
+    m_ExpandedIDs: 00000000584900005a4900005c49000000ca9a3b
+>>>>>>> package menu + scripts pause et music managers
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -645,7 +901,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< refs/remotes/origin/main
     m_ExpandedIDs: 000000007c4800007e48000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000584900005a4900005c49000000ca9a3b
+>>>>>>> package menu + scripts pause et music managers
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -672,8 +932,13 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
+<<<<<<< refs/remotes/origin/main
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 5e4b0000884b0000744b0000
+=======
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
+>>>>>>> package menu + scripts pause et music managers
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: AK_DeathScreen
@@ -689,7 +954,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 0
       m_IsRenamingFilename: 1
+<<<<<<< refs/remotes/origin/main
       m_ClientGUIView: {fileID: 11}
+=======
+      m_ClientGUIView: {fileID: 10}
+>>>>>>> package menu + scripts pause et music managers
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -700,6 +969,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 51.399994}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
+<<<<<<< refs/remotes/origin/main
   m_DirectoriesAreaWidth: 112.399994
 --- !u!114 &17
 MonoBehaviour:
@@ -727,6 +997,10 @@ MonoBehaviour:
     height: 347.6
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
+=======
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &16
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -742,6 +1016,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< refs/remotes/origin/main
     m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
@@ -749,6 +1024,15 @@ MonoBehaviour:
     x: 1075.2001
     y: 73.6
     width: 459.80005
+=======
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1172.8
+    y: 73.6
+    width: 362.19995
+>>>>>>> package menu + scripts pause et music managers
     height: 710
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
@@ -763,7 +1047,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< refs/remotes/origin/main
 --- !u!114 &19
+=======
+--- !u!114 &17
+>>>>>>> package menu + scripts pause et music managers
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
