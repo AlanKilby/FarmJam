@@ -12,7 +12,14 @@ public class AK_PlayerHP : MonoBehaviour
     {
         playerHP = maxHP;
     }
-    
+
+    private void Update()
+    {
+        if (playerHP <= 0)
+        {
+            PlayerDeath();
+        }
+    }
     public void LoseHP(float damage)
     {
         playerHP -= damage;
@@ -20,9 +27,6 @@ public class AK_PlayerHP : MonoBehaviour
 
     public void PlayerDeath()
     {
-        if(playerHP <= 0)
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }

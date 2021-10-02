@@ -15,18 +15,18 @@ public class AK_PlayerScoringSystem : MonoBehaviour
         milk = 0;
     }
 
-    public void AddMilk()
+    public void AddMilk(int quantity)
     {
-        milk++;
+        milk+= quantity;
     }
 
-    public void AddBacon()
+    public void AddBacon(int quantity)
     {
-        bacon++;
+        bacon+= quantity;
     }
 
-    public void AddEggs()
+    public void AddEggs(int quantity)
     {
-        eggs++;
+        eggs+= quantity;
     }
 }
