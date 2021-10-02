@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-1.2453837394714356,"y":-0.24675601720809937,"z":-62.375064849853519},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.429704189300537,"orthographic":true}
+=======
+<<<<<<< HEAD
+<<<<<<< main
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-5.8300604820251469,"y":0.7661174535751343,"z":-53.5389289855957},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":12.494659423828125,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-7.066652774810791,"y":7.787453651428223,"z":-840.1470947265625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":48.27445983886719,"orthographic":true}
+>>>>>>> LD_FirstLayout
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-7.066652774810791,"y":7.787453651428223,"z":-840.1470947265625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":48.27445983886719,"orthographic":true}
+>>>>>>> HugoLD
+>>>>>>> HugoLD
