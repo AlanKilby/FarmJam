@@ -32,7 +32,7 @@ public class AK_BBQ : MonoBehaviour
 
                 Vector2 playerPos = collision.gameObject.transform.position;
 
-                for(int i = 0; i <= recipe.Length; i++)
+                for(int i = 0; i < recipe.Length; i++)
                 {
                     recipe[i].SetActive(false);
                 }
