@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b453cf8c4b1a58f4a81c26c357db23d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 65
+  maxHP: 5
   enemyHP: 0
   isPig: 1
   isChicken: 0
@@ -418,7 +418,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -7863071288044800545, guid: 43a2602f1e5f80e4999d0ed92796cf2b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

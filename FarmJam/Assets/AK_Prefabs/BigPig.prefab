@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b453cf8c4b1a58f4a81c26c357db23d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 65
+  maxHP: 300
   enemyHP: 0
   isPig: 1
   isChicken: 0
@@ -439,7 +439,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: -2510476293373519475, guid: efcf4e83cf1a15648b16dee941b28e94, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -599,7 +599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 525193366688082433, guid: 8458c7b4f901c9748af4114861b45018, type: 3}
       propertyPath: contactDamage
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 525193366688082438, guid: 8458c7b4f901c9748af4114861b45018, type: 3}
       propertyPath: m_Name
