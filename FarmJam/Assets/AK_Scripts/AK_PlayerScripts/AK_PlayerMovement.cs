@@ -20,6 +20,7 @@ public class AK_PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        cam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
         playerRB = GetComponent<Rigidbody2D>();
         
     }

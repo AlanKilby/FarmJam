@@ -8,6 +8,8 @@ public class AK_PlayerHP : MonoBehaviour
 
     public float playerHP;
 
+    public GameObject deathScreen;
+
     private void Start()
     {
         playerHP = maxHP;
@@ -27,6 +29,8 @@ public class AK_PlayerHP : MonoBehaviour
 
     public void PlayerDeath()
     {
+        Instantiate(deathScreen,Vector2.zero,Quaternion.identity);
         Destroy(gameObject);
+        Time.timeScale = 0;
     }
 }

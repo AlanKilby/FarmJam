@@ -35,13 +35,26 @@ public class AK_EnemyHP : MonoBehaviour
 
     public void EnemyDeath()
     {
-        if(isPig)
+        if (isPig)
+        {
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddBacon(quantity);
+            if(gameObject.GetComponent<AK_BigPigAI>() != null)
+            {
+                gameObject.GetComponent<AK_BigPigAI>().SpawnPigs();
+            }
+        }
         else if(isCow)
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddMilk(quantity);
         else if (isChicken)
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddEggs(quantity);
 
         Destroy(gameObject);
+    }
+
+    IEnumerator enemyDeathCoroutine()
+    {
+        yield return new WaitForSeconds(0.1f);
+        
+        yield return null;
     }
 }

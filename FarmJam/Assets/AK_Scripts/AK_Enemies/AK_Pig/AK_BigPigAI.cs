@@ -25,13 +25,7 @@ public class AK_BigPigAI : MonoBehaviour
         destination.target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
-    private void Update()
-    {
-        if(enemyHP.enemyHP <= 0)
-        {
-            SpawnPigs();
-        }
-    }
+    
 
     public void SpawnPigs()
     {
