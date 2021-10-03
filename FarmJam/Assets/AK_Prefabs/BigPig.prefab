@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 2113336995406183512}
   - component: {fileID: 2113336995406183511}
   - component: {fileID: 5564129559607231911}
+  - component: {fileID: 6186510648095505945}
   m_Layer: 7
   m_Name: BigPig
   m_TagString: Untagged
@@ -225,6 +226,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6186510648095505945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480613821597621354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c45e566904e9c48b21bd9edcb295e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HURT: {fileID: 8300000, guid: 3ff005f712188fc4cbd3bd1925e02eb3, type: 3}
+  DEATH: {fileID: 8300000, guid: c605158e4cdbbe24eb3e7db9a778c9f2, type: 3}
 --- !u!1 &660422238069808012
 GameObject:
   m_ObjectHideFlags: 0

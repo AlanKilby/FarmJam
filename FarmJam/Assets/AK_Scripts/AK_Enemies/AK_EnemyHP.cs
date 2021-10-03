@@ -14,10 +14,12 @@ public class AK_EnemyHP : MonoBehaviour
 
     public int quantity;
 
+    AK_EnemySound enemySound;
 
     private void Start()
     {
         enemyHP = maxHP;
+        enemySound = GetComponent<AK_EnemySound>();
     }
 
     private void FixedUpdate()
@@ -31,6 +33,7 @@ public class AK_EnemyHP : MonoBehaviour
     public void LoseHP(float damage)
     {
         enemyHP -= damage;
+        enemySound.PlaySoundOS(enemySound.HURT);
     }
 
     public void EnemyDeath()
@@ -48,6 +51,7 @@ public class AK_EnemyHP : MonoBehaviour
         else if (isChicken)
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddEggs(quantity);
 
+        enemySound.PlaySoundOS(enemySound.DEATH);
         Destroy(gameObject);
     }
 

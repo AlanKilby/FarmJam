@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 4929909168726272252}
   - component: {fileID: 4929909168726272243}
   - component: {fileID: 6431544535134596478}
+  - component: {fileID: 1988795860356529382}
   m_Layer: 7
   m_Name: MediumPig
   m_TagString: Untagged
@@ -253,6 +254,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1988795860356529382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6887658807368255694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52c45e566904e9c48b21bd9edcb295e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HURT: {fileID: 8300000, guid: 825f076ee6480df42b1d8f2eeae6d7ac, type: 3}
+  DEATH: {fileID: 8300000, guid: c605158e4cdbbe24eb3e7db9a778c9f2, type: 3}
 --- !u!70 &4929909168726272241
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
