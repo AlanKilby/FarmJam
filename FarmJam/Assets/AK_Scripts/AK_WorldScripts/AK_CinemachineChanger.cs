@@ -10,6 +10,11 @@ public class AK_CinemachineChanger : MonoBehaviour
     private void Start()
     {
         vCam = GetComponent<CinemachineVirtualCamera>();
+       
+    }
+
+    private void Update()
+    {
         vCam.Follow = GameObject.FindGameObjectWithTag("Player").transform;
     }
 }

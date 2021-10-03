@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< refs/remotes/origin/main
-<<<<<<< refs/remotes/origin/main
-- path: Assets/AK_Scenes/TestingScene.unity
-=======
-- path: Assets/Menu Package/Scenes/MenuScene.unity
->>>>>>> package menu + scripts pause et music managers
-=======
 - path: Assets/HD_Scenes/HD_Level.unity
->>>>>>> Ajout sons et scripting :(
   isLoaded: 1
   isActive: 1
   isSubScene: 0

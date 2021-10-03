@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3f17add11f87e4982acc041c62c768, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pelletSpeed: 10
+  pelletSpeed: 18
   pelletDamage: 5
   pelletLifeExpectancy: 0.7
 --- !u!50 &4152193878882102155

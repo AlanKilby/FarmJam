@@ -208,6 +208,7 @@ MonoBehaviour:
   maxHP: 100
   playerHP: 0
   deathScreen: {fileID: 558428342013341083, guid: e01eee52374086e42a9c7b60d81f67a9, type: 3}
+  playerDummy: {fileID: 9109978089813305586, guid: c3a54d7030543be47be1942faf7a67a0, type: 3}
 --- !u!1 &1370696165953921364
 GameObject:
   m_ObjectHideFlags: 0

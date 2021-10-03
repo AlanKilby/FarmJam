@@ -10,26 +10,32 @@ public class AK_LockedDoor : MonoBehaviour
     public bool eggs;
 
     public AK_EnemySpawner[] linkedSpawners;
+    AK_ScoreManager scoreManager;
+
+    private void Start()
+    {
+        scoreManager = GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<AK_ScoreManager>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            AK_PlayerScoringSystem playerScore = collision.gameObject.GetComponent<AK_PlayerScoringSystem>();
+            //AK_PlayerScoringSystem playerScore = collision.gameObject.GetComponent<AK_PlayerScoringSystem>();
 
-            if (bacon && playerScore.bacon >= doorPrice)
+            if (bacon && scoreManager.bacon >= doorPrice)
             {
-                playerScore.bacon -= doorPrice;
+                scoreManager.bacon -= doorPrice;
                 OpenDoor();
             }
-            else if (milk && playerScore.milk >= doorPrice)
+            else if (milk && scoreManager.milk >= doorPrice)
             {
-                playerScore.milk -= doorPrice;
+                scoreManager.milk -= doorPrice;
                 OpenDoor();
             }
-            else if (eggs && playerScore.eggs >= doorPrice)
+            else if (eggs && scoreManager.eggs >= doorPrice)
             {
-                playerScore.eggs -= doorPrice;
+                scoreManager.eggs -= doorPrice;
                 OpenDoor();
             }
         }

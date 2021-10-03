@@ -8,6 +8,9 @@ public class AK_BBQ : MonoBehaviour
     AK_ScoreManager scoreManager;
 
     public GameObject playerAkimbo;
+
+    public GameObject[] recipe;
+
     private void Start()
     {
         scoreManager = GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<AK_ScoreManager>();
@@ -28,6 +31,11 @@ public class AK_BBQ : MonoBehaviour
                 scoreManager.milk -= bbqPrice;
 
                 Vector2 playerPos = collision.gameObject.transform.position;
+
+                for(int i = 0; i <= recipe.Length; i++)
+                {
+                    recipe[i].SetActive(false);
+                }
 
                 Destroy(collision.gameObject);
 

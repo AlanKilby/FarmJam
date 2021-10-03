@@ -46,6 +46,11 @@ public class AK_Pellet : MonoBehaviour
             collision.GetComponent<AK_EnemyHP>().LoseHP(pelletDamage);
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

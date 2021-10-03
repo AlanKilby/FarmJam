@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 8
   m_Name: EnemySpawner (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -134,7 +134,7 @@ MonoBehaviour:
   - {fileID: 4786639958809586784}
   - {fileID: 5384421079018281896}
   isActive: 0
-  timeBetweenSpawns: 0
+  timeBetweenSpawns: 4
   enemy: {fileID: 4881714169091112534, guid: 5545c76877c2f3e4daddf85a39aa1bdb, type: 3}
 --- !u!61 &4631422862318770065
 BoxCollider2D:
@@ -174,7 +174,7 @@ GameObject:
   m_Layer: 8
   m_Name: EnemySpawner (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -204,7 +204,7 @@ GameObject:
   m_Layer: 8
   m_Name: EnemySpawner (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

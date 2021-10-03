@@ -31,5 +31,10 @@ public class AK_MilkProjectile : MonoBehaviour
             collision.gameObject.GetComponent<AK_PlayerHP>().LoseHP(damage);
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Fence"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

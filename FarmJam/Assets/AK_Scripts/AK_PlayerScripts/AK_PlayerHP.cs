@@ -10,6 +10,8 @@ public class AK_PlayerHP : MonoBehaviour
 
     public GameObject deathScreen;
 
+    public GameObject playerDummy;
+
     private void Start()
     {
         playerHP = maxHP;
@@ -30,7 +32,8 @@ public class AK_PlayerHP : MonoBehaviour
     public void PlayerDeath()
     {
         Instantiate(deathScreen,Vector2.zero,Quaternion.identity);
+        Instantiate(playerDummy,transform.position,Quaternion.identity);
         Destroy(gameObject);
-        Time.timeScale = 0;
+        
     }
 }

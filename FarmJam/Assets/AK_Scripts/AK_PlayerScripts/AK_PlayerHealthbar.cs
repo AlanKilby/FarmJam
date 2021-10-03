@@ -10,9 +10,14 @@ public class AK_PlayerHealthbar : MonoBehaviour
 
     AK_PlayerHP playerHP;
 
+    private void Awake()
+    {
+        //playerHP = GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerHP>();
+    }
+
     private void Start()
     {
-        playerHP = GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerHP>();
+        playerHP = gameObject.GetComponentInParent<AK_PlayerHP>();
         maxHealth = playerHP.maxHP;
         healthBar = GetComponent<Image>();
     }

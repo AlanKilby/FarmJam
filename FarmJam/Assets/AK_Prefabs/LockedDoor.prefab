@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2986966950678871646}
   - component: {fileID: 2986966950678871647}
   - component: {fileID: 89435075885123178}
-  m_Layer: 8
+  - component: {fileID: 2041319247091004257}
+  m_Layer: 9
   m_Name: LockedDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +92,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: e83b1495ba11e8e46945d13353be2be8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,6 +104,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &2041319247091004257
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2986966950678871645}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &6230659681863449626
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,7 +136,7 @@ GameObject:
   - component: {fileID: 7060552968713644746}
   - component: {fileID: 694984046594385915}
   - component: {fileID: 89435075885123188}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4254376912996036564}
   - component: {fileID: 3872634071223544013}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: ImageHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -282,7 +304,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -304,7 +326,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000644984955790421}
   - component: {fileID: 1863802365870333767}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Quantity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -364,7 +386,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

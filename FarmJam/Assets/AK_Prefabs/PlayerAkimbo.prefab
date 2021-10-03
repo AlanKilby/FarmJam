@@ -264,8 +264,8 @@ MonoBehaviour:
   - {fileID: 583202260317096604}
   - {fileID: 3354504007524981752}
   - {fileID: 695374706712101899}
-  shootingCooldown: 0.5
-  spreadAngle: 2
+  shootingCooldown: 0.25
+  spreadAngle: 4
   gunAnim: {fileID: 502404873777331767}
 --- !u!1 &4790163172362115423
 GameObject:
@@ -531,8 +531,8 @@ MonoBehaviour:
   - {fileID: 8787940808128141020}
   - {fileID: 8787940807170297166}
   - {fileID: 8787940807259271193}
-  shootingCooldown: 0.5
-  spreadAngle: 2
+  shootingCooldown: 0.25
+  spreadAngle: 4
   gunAnim: {fileID: 3903255828574893598}
 --- !u!1 &8787940807259271198
 GameObject:
@@ -800,9 +800,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 835ec09e26eebac43aee82f530255dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 200
   playerHP: 0
   deathScreen: {fileID: 558428342013341083, guid: e01eee52374086e42a9c7b60d81f67a9, type: 3}
+  playerDummy: {fileID: 9109978089813305586, guid: c3a54d7030543be47be1942faf7a67a0, type: 3}
 --- !u!1 &8787940808128141021
 GameObject:
   m_ObjectHideFlags: 0
