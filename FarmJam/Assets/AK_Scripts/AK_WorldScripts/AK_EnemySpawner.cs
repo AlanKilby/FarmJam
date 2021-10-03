@@ -16,6 +16,7 @@ public class AK_EnemySpawner : MonoBehaviour
     private void Start()
     {
         timeHolder = timeBetweenSpawns;
+        timeBetweenSpawns = 0;
     }
     private void Update()
     {

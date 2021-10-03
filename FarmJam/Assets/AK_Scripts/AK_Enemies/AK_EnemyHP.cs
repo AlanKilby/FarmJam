@@ -14,15 +14,21 @@ public class AK_EnemyHP : MonoBehaviour
 
     public int quantity;
 
+    AK_EnemySound enemySound;
+
+    bool isAlreadyDead = false;
+
+    public GameObject bloodstain;
 
     private void Start()
     {
         enemyHP = maxHP;
+        enemySound = GetComponent<AK_EnemySound>();
     }
 
     private void FixedUpdate()
     {
-        if (enemyHP <= 0)
+        if (enemyHP <= 0 && !isAlreadyDead)
         {
             EnemyDeath();
         }
@@ -31,10 +37,13 @@ public class AK_EnemyHP : MonoBehaviour
     public void LoseHP(float damage)
     {
         enemyHP -= damage;
+        enemySound.PlaySoundOS(enemySound.HURT);
     }
 
     public void EnemyDeath()
     {
+        isAlreadyDead = true;
+        Instantiate(bloodstain, transform.position, Quaternion.identity);
         if (isPig)
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddBacon(quantity);

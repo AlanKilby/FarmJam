@@ -13,9 +13,12 @@ public class AK_PlayerShooting : MonoBehaviour
     float cooldown;
 
     public AK_ShotgunAnim gunAnim;
+    AK_PlayerSound playerSound;
+
 
     private void Start()
     {
+        playerSound = GetComponentInParent<AK_PlayerSound>();
         cooldown = shootingCooldown;
         shootingCooldown = 0;
     }
@@ -42,6 +45,8 @@ public class AK_PlayerShooting : MonoBehaviour
 
     IEnumerator ShootgunDoubleShot()
     {
+        playerSound.PlaySoundOS(playerSound.SHOOTING);
+
         gunAnim.ChangeAnimationState(gunAnim.GUN_SHOOTING);
 
         shootingCooldown = cooldown;
