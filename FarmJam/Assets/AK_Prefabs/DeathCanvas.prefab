@@ -118,6 +118,8 @@ MonoBehaviour:
   playScene: 
   creditsScene: 
   mainMenu: 
+  activeScene:
+    m_Handle: 0
 --- !u!114 &4334744362484948015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,6 +132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc0791abdb3c0c246920e3adcdfcb86e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeScene:
+    m_Handle: 0
 --- !u!1 &1202112720337521375
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +257,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6628001053957225964}
         m_TargetAssemblyTypeName: AK_Buttons, Assembly-CSharp
-        m_MethodName: PlayGame
+        m_MethodName: PlayAgain
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
