@@ -115,9 +115,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31da539639c4d0b49b25b97c209f0702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playScene: 
+  playScene: HD_Level
   creditsScene: 
-  mainMenu: 
+  mainMenu: MenuScene
   activeScene:
     m_Handle: 0
 --- !u!114 &4334744362484948015
@@ -257,7 +257,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6628001053957225964}
         m_TargetAssemblyTypeName: AK_Buttons, Assembly-CSharp
-        m_MethodName: PlayAgain
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
