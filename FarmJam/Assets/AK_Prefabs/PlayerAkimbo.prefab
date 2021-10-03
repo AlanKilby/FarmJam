@@ -264,8 +264,8 @@ MonoBehaviour:
   - {fileID: 583202260317096604}
   - {fileID: 3354504007524981752}
   - {fileID: 695374706712101899}
-  shootingCooldown: 0.25
-  spreadAngle: 4
+  shootingCooldown: 0.4
+  spreadAngle: 5
   gunAnim: {fileID: 502404873777331767}
 --- !u!1 &4790163172362115423
 GameObject:
@@ -531,8 +531,8 @@ MonoBehaviour:
   - {fileID: 8787940808128141020}
   - {fileID: 8787940807170297166}
   - {fileID: 8787940807259271193}
-  shootingCooldown: 0.25
-  spreadAngle: 4
+  shootingCooldown: 0.4
+  spreadAngle: 5
   gunAnim: {fileID: 3903255828574893598}
 --- !u!1 &8787940807259271198
 GameObject:

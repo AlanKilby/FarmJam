@@ -192,9 +192,8 @@ MonoBehaviour:
   spawnPoints:
   - {fileID: 4833127096703516237}
   - {fileID: 2459985899501905388}
-  - {fileID: 3096051000994976292}
   isActive: 0
-  timeBetweenSpawns: 0
+  timeBetweenSpawns: 8
   enemy: {fileID: 2017453708729147440, guid: 9adfeba734e5d544a898ec06cb5cea42, type: 3}
 --- !u!61 &2308148705530535453
 BoxCollider2D:
