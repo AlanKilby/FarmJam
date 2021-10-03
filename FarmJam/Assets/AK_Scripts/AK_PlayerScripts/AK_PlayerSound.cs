@@ -16,6 +16,7 @@ public class AK_PlayerSound : MonoBehaviour
 
     public void PlaySoundOS(AudioClip audioClip)
     {
-        audioSrc.PlayOneShot(audioClip);
+        
+            audioSrc.PlayOneShot(audioClip);
     }
 }

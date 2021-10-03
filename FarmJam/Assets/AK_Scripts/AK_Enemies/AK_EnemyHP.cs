@@ -16,6 +16,10 @@ public class AK_EnemyHP : MonoBehaviour
 
     AK_EnemySound enemySound;
 
+    bool isAlreadyDead = false;
+
+    public GameObject bloodstain;
+
     private void Start()
     {
         enemyHP = maxHP;
@@ -24,7 +28,7 @@ public class AK_EnemyHP : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (enemyHP <= 0)
+        if (enemyHP <= 0 && !isAlreadyDead)
         {
             EnemyDeath();
         }
@@ -38,6 +42,8 @@ public class AK_EnemyHP : MonoBehaviour
 
     public void EnemyDeath()
     {
+        isAlreadyDead = true;
+        Instantiate(bloodstain, transform.position, Quaternion.identity);
         if (isPig)
         {
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddBacon(quantity);
@@ -51,7 +57,6 @@ public class AK_EnemyHP : MonoBehaviour
         else if (isChicken)
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddEggs(quantity);
 
-        enemySound.PlaySoundOS(enemySound.DEATH);
         Destroy(gameObject);
     }
 

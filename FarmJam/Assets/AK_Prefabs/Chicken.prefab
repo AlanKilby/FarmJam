@@ -150,6 +150,7 @@ MonoBehaviour:
   isChicken: 1
   isCow: 0
   quantity: 5
+  bloodstain: {fileID: 4110392411326212933, guid: f27da420279e8e44895b673e08a30aec, type: 3}
 --- !u!58 &8137408454815781802
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -295,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52c45e566904e9c48b21bd9edcb295e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ATTACK: {fileID: 8300000, guid: 3e167d63154f9ee4db871aa107c0cc53, type: 3}
+  HURT: {fileID: 8300000, guid: 3ea824e9a0babda428eeb01f3bca8fbe, type: 3}
   DEATH: {fileID: 8300000, guid: 3ea824e9a0babda428eeb01f3bca8fbe, type: 3}
 --- !u!1 &3885001739256630946
 GameObject:

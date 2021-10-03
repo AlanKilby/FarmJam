@@ -11,11 +11,12 @@ public class AK_EnemySound : MonoBehaviour
 
     private void Start()
     {
-        audioSource = GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void PlaySoundOS(AudioClip audioClip)
     {
-        audioSource.PlayOneShot(audioClip);
+        if (!audioSource.isPlaying)
+            audioSource.PlayOneShot(audioClip);
     }
 }
