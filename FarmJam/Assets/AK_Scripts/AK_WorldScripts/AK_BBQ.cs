@@ -11,16 +11,19 @@ public class AK_BBQ : MonoBehaviour
 
     public GameObject[] recipe;
 
+    bool breakFastExhausted;
+
     private void Start()
     {
         scoreManager = GameObject.FindGameObjectWithTag("ScoreManager").GetComponent<AK_ScoreManager>();
         scoreManager.bacon = 0;
         scoreManager.eggs = 0;
         scoreManager.milk = 0;
+        breakFastExhausted = false;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !breakFastExhausted)
         {
             AK_PlayerScoringSystem playerScore = collision.gameObject.GetComponent<AK_PlayerScoringSystem>();
 
@@ -29,6 +32,8 @@ public class AK_BBQ : MonoBehaviour
                 scoreManager.bacon -= bbqPrice;
                 scoreManager.eggs -= bbqPrice;
                 scoreManager.milk -= bbqPrice;
+
+                breakFastExhausted = true;
 
                 Vector2 playerPos = collision.gameObject.transform.position;
 

@@ -47,7 +47,7 @@ public class AK_Pellet : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Wall"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Fence"))
         {
             Destroy(gameObject);
         }
