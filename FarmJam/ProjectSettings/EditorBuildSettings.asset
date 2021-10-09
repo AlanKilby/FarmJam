@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/HD_Scenes/HD_Level.unity
     guid: 1c1dd0c6df9d6c941b61e719dcb550c7
+  - enabled: 1
+    path: Assets/CHM_Scenes/Cinematic.unity
+    guid: b80cd4e91e0214c44adcdc27e3ef2e52
   m_configObjects: {}
