@@ -57,6 +57,7 @@ public class AK_EnemyHP : MonoBehaviour
         else if (isChicken)
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddEggs(quantity);
 
+        GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddKill();
         Destroy(gameObject);
     }
 

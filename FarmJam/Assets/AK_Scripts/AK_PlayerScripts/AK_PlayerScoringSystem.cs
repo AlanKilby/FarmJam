@@ -7,6 +7,7 @@ public class AK_PlayerScoringSystem : MonoBehaviour
     public int eggs;
     public int bacon;
     public int milk;
+    public int enemyKilled;
 
     AK_ScoreManager scoreManager;
 
@@ -17,6 +18,8 @@ public class AK_PlayerScoringSystem : MonoBehaviour
         eggs = scoreManager.eggs;
         milk = scoreManager.milk;
         bacon = scoreManager.bacon;
+        enemyKilled = scoreManager.enemyKilled;
+
     }
     public void AddMilk(int quantity)
     {
@@ -31,5 +34,10 @@ public class AK_PlayerScoringSystem : MonoBehaviour
     public void AddEggs(int quantity)
     {
         scoreManager.eggs += quantity;
+    }
+
+    public void AddKill()
+    {
+        scoreManager.enemyKilled += 1;
     }
 }

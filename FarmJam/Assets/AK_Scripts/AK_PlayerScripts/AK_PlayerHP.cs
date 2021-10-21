@@ -12,9 +12,12 @@ public class AK_PlayerHP : MonoBehaviour
 
     public GameObject playerDummy;
 
+    AK_PlayerSound playerSound;
+
     private void Start()
     {
         playerHP = maxHP;
+        playerSound = GetComponent<AK_PlayerSound>();
     }
 
     private void Update()
@@ -27,6 +30,7 @@ public class AK_PlayerHP : MonoBehaviour
     public void LoseHP(float damage)
     {
         playerHP -= damage;
+        playerSound.PlaySoundOS(playerSound.HURT);
     }
 
     public void PlayerDeath()

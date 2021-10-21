@@ -8,5 +8,5 @@ public class AK_ScoreManager : MonoBehaviour
     public int bacon = 0;
     public int milk = 0;
 
-    
+    public int enemyKilled = 0;
 }
