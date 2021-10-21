@@ -20,6 +20,8 @@ public class AK_EnemyHP : MonoBehaviour
 
     public GameObject bloodstain;
 
+    public CHM_PlayerDialogue playerDialogue;
+
     private void Start()
     {
         enemyHP = maxHP;
@@ -58,7 +60,9 @@ public class AK_EnemyHP : MonoBehaviour
             GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddEggs(quantity);
 
         GameObject.FindGameObjectWithTag("Player").GetComponent<AK_PlayerScoringSystem>().AddKill();
+        
         Destroy(gameObject);
+        GameObject.FindGameObjectWithTag("audioSrc").GetComponent<CHM_PlayerDialogue>().TriggerDialogue();
     }
 
     IEnumerator enemyDeathCoroutine()

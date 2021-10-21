@@ -351,8 +351,9 @@ MonoBehaviour:
   isPig: 0
   isChicken: 0
   isCow: 1
-  quantity: 10
+  quantity: 4
   bloodstain: {fileID: 7366352377450667711, guid: ead070d62d40d6a42b775a7c405d32c9, type: 3}
+  playerDialogue: {fileID: 0}
 --- !u!50 &5929867648318048497
 Rigidbody2D:
   serializedVersion: 4

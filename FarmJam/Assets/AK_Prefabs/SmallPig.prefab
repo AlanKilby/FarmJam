@@ -169,8 +169,9 @@ MonoBehaviour:
   isPig: 1
   isChicken: 0
   isCow: 0
-  quantity: 5
+  quantity: 1
   bloodstain: {fileID: 5518698786219584190, guid: e1b2b6a3400476b42a09acfc6eb3b81c, type: 3}
+  playerDialogue: {fileID: 0}
 --- !u!70 &403172859898982121
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -4,15 +4,26 @@ using UnityEngine;
 
 public class CHM_PlayerDialogue : MonoBehaviour
 {
-    
-    void Start()
+    public int dialogueProbabilty;
+
+    public AudioSource audioSource;
+
+    public AudioClip[] DialogueBox;
+
+    private void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TriggerDialogue()
     {
+        int i = Random.Range(1, 100);
+
+        if(i <= dialogueProbabilty)
+        {
+            int r = Random.Range(0, DialogueBox.Length);
+            audioSource.PlayOneShot(DialogueBox[r]);
+        }
         
     }
 }

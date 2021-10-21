@@ -7,7 +7,9 @@ public class AK_PlayerSound : MonoBehaviour
     public AudioClip SHOOTING;
     public AudioClip HURT;
 
-    AudioSource audioSrc;
+    public AudioSource audioSrc;
+
+    
 
     private void Start()
     {
