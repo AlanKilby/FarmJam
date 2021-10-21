@@ -149,7 +149,7 @@ MonoBehaviour:
   isPig: 0
   isChicken: 1
   isCow: 0
-  quantity: 5
+  quantity: 2
   bloodstain: {fileID: 4110392411326212933, guid: f27da420279e8e44895b673e08a30aec, type: 3}
 --- !u!58 &8137408454815781802
 CircleCollider2D:
